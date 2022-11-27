@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,105,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+.menu ul{
+    display: inline-flex;
+    margin: 70px;   
+}
+
+.menu ul li{
+    list-style: none;
+    margin: 0 20px;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.menu ul li h2{
+    color: azure;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.banner{
+    width: 80%;
+    height: 70%;
+    margin-top: 5%;
+    margin-left: 150px;
+    position: relative;
+    color: whitesmoke;
+}
+
+.app-text{
+    width: 50%;
+    float: left;
+}
+
+.app-text h1{
+    font-size: 42px;
+    width: 640px;
+    margin-left: 40px;
+    position: relative;
+}
+
+.app-text p{
+    width: 650px;
+    font-size: 15px;
+    margin: 30px 0px 30px 40px;
+    line-height: 25px;
+    color: darkgray;
+}
