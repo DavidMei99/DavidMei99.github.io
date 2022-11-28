@@ -4,6 +4,7 @@
 <head>
     <title>Di's Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
 </head> 
 
 <body>
@@ -11,10 +12,19 @@
         <div class="menu">
             <ul>
                 <li><h2>Di's Portfolio</h2></li>
-                <li><a href="index.html">Home</a></li>
-                <li>Bio</li>
-                <li>Resume</li>
-                <li>Contact</li>
+                <li><a href="index.html"><button class="dropBtn">Home</button></a></li>
+                <li><a href="#"><button class="dropBtn">Bio</button></a></li>
+                <li><a href="media/resume.pdf"><button class="dropBtn">Resume</button></a></li>
+                <li>
+                    <button onclick="myFunction()" class="dropBtn">Contact</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <h3>Di Mei</h3>
+                        <p>Mudd Hall<br>
+                            2233 Tech Drive, Third Floor, Evanston, IL 60208<br>
+                            McCormick School of Engineering, Northwestern University<br>
+                            email: dimei2022@u.northwestern.edu</p>
+                    </div>
+                </li>
             </ul>
         </div>
         <div class="banner">
@@ -27,7 +37,7 @@
                     <a href="#" class="access-btn"><span>Learn More</span></a>
                 </div>
                 <div class="app-image">
-                    <img src="pics/mona-lisa.png" width="180">
+                    <img src="media/mona-lisa.png" width="180">
                 </div>
             </div>
             <div class="text-img-chunk">
@@ -39,7 +49,7 @@
                     <a href="#" class="access-btn"><span>Learn More</span></a>
                 </div>
                 <div class="app-image">
-                    <img src="pics/conversation.png" width="180">
+                    <img src="media/conversation.png" width="180">
                 </div>
             </div>           
         </div>
