@@ -116,6 +116,33 @@
     color: antiquewhite;
 }
 
+.bio-img{
+    border-radius: 5%;
+}
+
+.gen figcaption{
+    position: relative;
+    text-align: center;
+    margin-top: 20;
+    margin-left: 290;
+}
+
+.bio figcaption{
+    position: relative;
+    margin-top: 20;
+}
+
+.fin figcaption{
+    position: relative;
+    text-align: center;
+    margin-top: 20;
+    margin-left: 225;
+}
+
+b{
+    font-family: "Gill Sans", sans-serif;
+}
+
 .access-btn{
     margin-left: 50px;
     width: max-content;
@@ -127,4 +154,8 @@
     background-image: linear-gradient(transparent, transparent), radial-gradient(circle at top left, whitesmoke, #19d7f8);
     background-origin: border-box;
     background-clip: content-box, border-box;
+}
+
+.access-btn span{
+    font-family: "Gill Sans", sans-serif;
 }
