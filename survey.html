@@ -1,0 +1,65 @@
+<html>
+
+<head>
+    <title>Di's Survey</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head> 
+
+<body>
+    <div class="container">
+        <div class="menu">
+            <ul>
+                <li><h2>Di's Portfolio</h2></li>
+                <li><a href="index.html"><button class="dropBtn">Home</button></a></li>
+                <li><a href="bio.html"><button class="dropBtn">Bio</button></a></li>
+                <li><a href="media/resume.pdf"><button class="dropBtn">Resume</button></a></li>
+                <li>
+                    <button onclick="myFunction()" class="dropBtn">Contact</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <h3>Di Mei</h3>
+                        <p>Mudd Hall<br>
+                            2233 Tech Drive, Third Floor, Evanston, IL 60208<br>
+                            McCormick School of Engineering, Northwestern University<br>
+                            email: dimei2022@u.northwestern.edu</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="banner">
+            <form>
+                <label for="fname"><b>1. Name</b> </label><br>
+                <input type="text" id="fname" name="fname" placeholder="name" required /><br>
+                <label for="email"><b>2. Your Email</b></label><br>
+                <input type="text" id="email" name="email" placeholder="email" pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*$" required /><br>
+                <p><b>3. Are you a master or PhD student?</b></p>
+                <label class="mc">Yes
+                    <input type="radio" name="condition" checked/>
+                    <span></span>
+                </label>
+                <label class="mc">No
+                    <input type="radio" name="condition" />
+                    <span></span>
+                </label>
+                <p><b>4. Which project interests you the most?</b></p>
+                <label class="mc">generative arts by P5 
+                    <input type="radio" name="project" checked/>
+                    <span></span>
+                </label>
+                <label class="mc">intelligent financial agent
+                    <input type="radio" name="project" />
+                    <span></span>
+                </label>
+                <label class="mc">others in resume
+                    <input type="radio" name="project" />
+                    <span></span>
+                </label>
+                <p><b>5. Leave any comment if you want</b></p>
+                <textarea placeholder="comment..."></textarea><br>
+                <input type="submit" value="Submit" class="submitBtn">
+            </form>  
+        </div>
+    </div>
+</body>
+
+</html>
